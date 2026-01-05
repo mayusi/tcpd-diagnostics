@@ -1,0 +1,38 @@
+# TCPD - Health Check Thresholds
+
+# Disk usage thresholds (percentage)
+disk:
+  warning: 85
+  critical: 95
+
+# RAM usage thresholds (percentage)
+memory:
+  warning: 80
+  critical: 90
+
+# CPU temperature thresholds (Celsius)
+cpu_temp:
+  warning: 75
+  critical: 85
+
+# GPU temperature thresholds (Celsius)
+gpu_temp:
+  warning: 80
+  critical: 90
+
+# Battery wear thresholds (percentage)
+battery_wear:
+  warning: 20
+  critical: 40
+
+# SMART thresholds
+smart:
+  reallocated_sectors:
+    warning: 1
+    critical: 10
+  pending_sectors:
+    warning: 1
+    critical: 5
+  power_on_hours:
+    info: 20000  # 2+ years of runtime
+    warning: 40000  # 4+ years

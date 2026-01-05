@@ -1,0 +1,20 @@
+# TCPD - Default Configuration
+
+# Scan settings
+scan:
+  default_mode: quick
+  timeout_seconds: 300
+
+# Admin privileges
+admin:
+  auto_elevate: true
+
+# Output settings
+output:
+  default_format: console
+  json_indent: 2
+
+# Logging
+logging:
+  level: INFO
+  file: diagnostics.log

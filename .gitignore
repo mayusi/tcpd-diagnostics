@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Build outputs
+dist/
+build/tcpd/
+build/pyinstaller/
+*.exe
+*.spec.bak
+
+# Logs
+*.log
+diagnostics.log
+
+# Sensitive data - may contain system info
+test_report.json
+*_report.json
+report_*.json
+
+# Third-party tools (licensing restrictions)
+tools/
+
+# Commercial/private build script
+build/build_selling.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller
+*.manifest
+*.spec.tmp
