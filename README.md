@@ -54,7 +54,7 @@ A portable CLI tool for diagnosing PC hardware, security, and system health on W
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/tcpd-diagnostics.git
+git clone https://github.com/mayusi/tcpd-diagnostics.git
 cd tcpd-diagnostics
 
 # Install dependencies
